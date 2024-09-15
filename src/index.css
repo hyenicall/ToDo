@@ -29,11 +29,9 @@ body {
   align-items: center;
   font-size: 1.2rem;
   accent-color: var(--color-accent);
-  background: linear-gradient(
-    106deg,
-    rgba(81, 87, 111, 1) 0%,
-    rgba(60, 61, 69, 1) 100%
-  );
+  background-image: url("../public/background.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #root {
